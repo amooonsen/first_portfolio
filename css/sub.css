@@ -2,12 +2,6 @@
 
 * {margin:0; box-sizing:border-box;}
 
-        @import url('https://fonts.googleapis.com/earlyaccess/jejumyeongjo.css');
-        @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&family=Yeon+Sung&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
-
 
         header {width:100%; height:80px; margin:0 auto; position: fixed; top:0; border-bottom: 0.1px solid rgba(0, 0, 0, 0.2); z-index:1000; background-color:#fff;}
         ul,li,ol {list-style:none; margin:0; padding:0;}
@@ -28,7 +22,7 @@
         header > nav > ul > li {float:left; }
         header > nav > ul > li > a {text-decoration:none; margin:0 30px 0 30px; font-size:19px; font-weight:bold;
           color:#000; letter-spacing: 1.3px;}
-        header > nav > ul > li > a:hover {text-decoration-color:rgba(0,0,0,0.2); font-weight: 1000; opacity:0.4 ;}
+        header > nav > ul > li > a:hover {text-decoration-color:rgba(0,0,0,0.2); font-weight: bold; opacity:0.4 ;}
 
 
         body { padding-top: 50px; }
@@ -47,7 +41,7 @@
 
         #product > #bottombox {width:520px; height:200px; margin:10px 0 0 15px; padding:0 20px;}
         #product > #bottombox > nav {width:520px; height:180px; margin:30px 0px 0 0; position: relative; right:20px;}
-        #product > #bottombox > nav > ul > li {float:left; margin:0 23px; text-align: center;}
+        #product > #bottombox > nav > ul > li {float:left; margin:0 20px; text-align: center;}
         #product > #bottombox > nav > ul > li > .boxspan1 {width:50px; height:50px; display: inline-block; line-height: 46px; font-size: 16px; color: #f28c10; font-weight: 900; border: 2px solid #444;border-radius: 50%;background: #fff; text-align: center; margin:10px 0;}
 
         #product > #bottombox > nav > ul > li > .boxspan2 {width:50px; height:50px; display: inline-block; line-height: 46px; font-size: 16px; color: #444; font-weight: 900; border: 2px solid #444;border-radius: 50%;background: #000; text-align: center; margin:10px 0;}
@@ -61,7 +55,7 @@
         #context {width:500px; height:850px; position: absolute; right:75px; margin:50px 0 auto;}
         
         #context > .topicon {width:100%; height:90px; float:left; margin:0 auto; padding:10px 0;}
-        #context > .topicon > a > img {width:300px height:20px; float:left; margin:0 10px 0 0;}
+        #context > .topicon > a > img {width:40px; height:40px; float:left; margin:0 10px 0 0;}
         #context > .topicon > .text {display: inline-block; margin: 0 5px 10px 0; padding: 0 15px; font-size: 16px; color: #444; position: relative; z-index: 1; float:right;}
         #context > .topicon > .text:before {content:""; display:block; width:100%; height:20px; background:#fffadb; position:absolute; top:5px; left:0; z-index:-1;}
 
@@ -72,16 +66,16 @@
         #context > .text > h3 > .span1 {display:inline-block; font-size:14px; margin:0 0 0 5px; color: rgba(0,0,0,0.7); }
 
         #context > .select {width:100%; height:100px; margin:0;}
-        #context > .select > nav {width:100% height:100px;}
-        #context > .select > nav > ul > #top > li {float:left; font-size:13px; width:526px; position: relative; text-align: left; margin:10px 0; color:#444;}
-        #context > .select > nav > ul > #top > li > select { width: calc(100% - 100px); height: 23px; line-height: 26px; padding: 0 55px 0 15px; font-size: 13px; color: #222; border: 1px solid rgba(0,0,0,0.4); background: #fff url(img/sub/arrow_down.png) center right 15px no-repeat; appearance: none; vertical-align: middle; margin:0;}
-        #context > .select > nav > ul > #last > li {float:left; text-align: left; margin:0 18px; font-size:13px; width:526px; position: relative; text-align: left; right:18px; color:#444;}
-        #context > .select > nav > ul > #last > li > select { width: calc(100% - 100px); height: 23px; line-height: 26px; padding: 0 245px 0 15px; font-size: 13px; color: #222; border: 1px solid rgba(0,0,0,0.4);
+        #context > .select > nav {width:100%; height:100px; margin: 5px 0;}
+        #context > .select > nav > ul > li .top {float:left; font-size:13px; width:526px; position: relative; text-align: left; margin:10px 0; color:#444;}
+        #context > .select > nav > ul > li .top select { width: calc(100% - 100px); height: 23px; line-height: 26px; padding: 0 55px 0 15px; font-size: 13px; color: #222; border: 1px solid rgba(0,0,0,0.4); background: #fff url(img/sub/arrow_down.png) center right 15px no-repeat; appearance: none; vertical-align: middle; margin:0;}
+        #context > .select > nav > ul > li .last {float:left; text-align: left; margin:0 18px; font-size:13px; width:526px; position: relative; text-align: left; right:18px; color:#444; padding-top: 5px;}
+        #context > .select > nav > ul > li .last select { width: calc(100% - 100px); height: 23px; line-height: 26px; padding: 0 245px 0 15px; font-size: 13px; color: #222; border: 1px solid rgba(0,0,0,0.4);
               background: #fff url(img/sub/arrow_down.png) center right 15px no-repeat; appearance: none; vertical-align: middle; margin:0 20px 0 0;}
 
 
-        #context > .detail_link {width:100%; height:120px;}
-        #context > .detail_link > .box1 {width:100%; height:50px; margin:10px 0 0 0; padding:10px 0;}
+        #context > .detail_link {width:100%; height:120px; padding-top: 10px;}
+        #context > .detail_link > .box1 {width:100%; height:50px; margin:10px 0 0 0; padding:20px 0;}
         #context > .detail_link > .box1 > img {width:20px; height:25px; margin:0 auto;}
         #context > .detail_link > .box1 > .link_span1 {margin:0 0 0 15px; font-size: 18px; font-weight: bold; display: inline-block; position: relative; bottom:5px;}
         #context > .detail_link > .box1 > .link_span2 {margin:0 15px 0 0; font-size:18px; display: inline-block; position: relative; bottom:5px;}
@@ -120,7 +114,7 @@
         
 
         #sub > .production {width:1070px; height:350px; margin:0 auto;}
-        #sub > .production > h1 {margin:30px 0 auto 20px 0 auto; font-size: 26px;}
+        #sub > .production > h1 {margin:30px auto 20px auto; font-size: 26px;}
         #sub > .production > .production_img {width:203px; height:250px; background-color: violet; margin:30px 5px; float:left; text-align: center; position: relative;}
         #sub > .production > .production_img > img {width:100%; height:100%;}
         
@@ -149,7 +143,7 @@
 
          #detail > .first_d {width:1050px; height:1250px; margin:0 auto; padding:30px 0;}
          #detail > .first_d > img {width:1000px; height:700px; margin:50px 30px;}
-         #detail > .first_d > h1 {font-size:37px; text-align: center; font-weight: 1000; margin:0 auto;}
+         #detail > .first_d > h1 {font-size:37px; text-align: center; font-weight: bold; margin:0 auto;}
          #detail > .first_d > h4 {margin:35px 0 auto ; font-size:18px; padding:0 30px;}
          #detail > .first_d > .dspan1 {margin:10px 0 10px 0; font-size:14px; padding:5px 30px; display:inline-block; color:rgba(0,0,0,0.7); line-height: 23px;}
 
@@ -238,7 +232,7 @@
          #detail3 > #text_review > button:hover {opacity: 0.8;}
 
 
-        .review_table > {width:1050px; height:800px; float:left; margin:40px; position: relative;}
+        .review_table {width:1050px; height:800px; float:left; margin:40px; position: relative;}
 
         .review_table >  table td {margin:20px 0 auto; padding:0; display: inline-block;}
       
@@ -354,7 +348,7 @@
 
         footer > #rightbox2 {width:22.5%; height:100%; background-color:rgba(0,0,0,0.85); margin:0; float:left;}
         footer > #rightbox2 > #selectbox {width:100%; height: 100px;} 
-        footer > #rightbox2 > #selectbox > select {width:70%; height:50%; line-height: 50px; margin-bottom: 80px; padding-right: 55px; font-size: 18px; color: #e3e3e3; font-weight: bold; border-bottom: 1px solid #D0000000; background: #D9000000 url(img/footSelect_down.png) center right 2px no-repeat; appearance: none; display: inline-block; -webkit-writing-mode: horizontal-tb !important; text-rendering: auto; margin:67px 0 0 50px; border-left: none; border-top:none; border-right: none;}
+        footer > #rightbox2 > #selectbox > select {width:70%; height:50%; line-height: 50px; margin-bottom: 80px; padding-right: 55px; font-size: 18px; color: #e3e3e3; font-weight: bold; border-bottom: 1px solid #d00000; background: #D90000 url(img/footSelect_down.png) center right 2px no-repeat; appearance: none; display: inline-block; -webkit-writing-mode: horizontal-tb !important; text-rendering: auto; margin:67px 0 0 50px; border-left: none; border-top:none; border-right: none;}
         footer > #rightbox2 > #selectbox > select > option {background-color: #fff; color:#000;}
 
   	    footer > #rightbox2 > nav {width:350px; height:200px; margin:40px 0 auto;}
